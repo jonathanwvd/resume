@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Resume of Jonathan Dambros: Engineering Manager in LLM evaluation and industrial AI researcher, Ph.D. in Chemical Engineering." />
   <title>Jonathan Dambros — Resume</title>
   <style>
     body{font:14px/1.5 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;padding:32px;max-width:800px}
     h1{font-size:28px;margin:0}
     h2{font-size:16px;text-transform:uppercase;margin:24px 0 8px;border-bottom:1px solid #ddd;padding-bottom:4px}
+    .tagline{font-weight:600;margin-top:4px}
     .contact{font-size:13px;margin-top:4px;color:#444}
     .section{margin-bottom:20px}
     .item{margin-bottom:12px}
@@ -17,23 +20,51 @@
     li{margin:2px 0}
     a{color:#0b5fff;text-decoration:none}
     a:hover{text-decoration:underline}
+    .pdf{float:right;font-size:13px;margin-top:10px}
+    @media (max-width:560px){body{padding:20px}.when{float:none;display:block}}
+    @page{size:A4;margin:14mm}
+    @media print{body{padding:0;max-width:none;font-size:11.5px;line-height:1.4}h1{font-size:24px}h2{font-size:13px;margin:10px 0 4px}.section{margin-bottom:6px}.item{margin-bottom:5px;break-inside:avoid}li{margin:1px 0}.pdf{display:none}}
   </style>
 </head>
 <body>
   <header>
+    <a class="pdf" href="Jonathan%20Dambros%20%E2%80%94%20Resume.pdf">Download PDF</a>
     <h1>Jonathan Dambros</h1>
+    <div class="tagline">Ph.D. in process control · Ph.D.-level knowledge to break the LLMs of the leading AI labs</div>
     <div class="contact">
       Porto Alegre, Brazil · <a href="mailto:jonathanwvd@gmail.com">jonathanwvd@gmail.com</a> · 
       <a href="https://github.com/jonathanwvd">GitHub</a> · 
       <a href="https://www.linkedin.com/in/jwvd/">LinkedIn</a> · 
-      <a href="https://jonathanwvd.github.io/">Portfolio</a> · 
       <a href="https://scholar.google.com/citations?user=A2428LgAAAAJ&hl=en">Google Scholar</a>
     </div>
   </header>
 
   <section class="section">
-    <h2>Profile</h2>
-    <p>Engineering Manager & Researcher with expertise in agentic systems, LLM evaluation, and industrial AI. Ph.D. in Chemical Engineering with 10+ years in Python, process monitoring, and optimization. Experienced leading cross-functional teams and delivering production-grade AI frameworks with measurable impact.</p>
+    <h2>Overview</h2>
+    <ul>
+      <li><b>LLM evaluation.</b> Write expert-level tasks that are fair and that frontier models still fail, and lead a team of 30+ doing the same, across many projects for several of the world's largest AI labs.</li>
+      <li><b>Researcher.</b> 10+ years in process control and monitoring at UFRGS (GIMSCOP). 20+ publications, 300+ citations.</li>
+      <li><b>Programmer.</b> 10+ years of Python: scientific libraries, data pipelines and web tools running in industry.</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li><b>Soft:</b> problem solving · attention to detail · domain knowledge · sustained deep focus · initiative · organized, well-documented work</li>
+      <li><b>Hard:</b> Python (10+ years) · machine learning (8+) · AI tools, used heavily and deliberately in daily work (4 years) · process control and control-loop monitoring (9+) · state estimation, Kalman/LQR (7+) · optimization (8+)</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Research</h2>
+    <ul>
+      <li>Oscillation and valve stiction detection in control loops</li>
+      <li>State estimation with Kalman filters</li>
+      <li>Predictive maintenance</li>
+      <li>Machine learning for process monitoring</li>
+      <li>Applied to refineries and offshore oil and gas, mainly with Petrobras</li>
+    </ul>
   </section>
 
   <section class="section">
@@ -42,9 +73,9 @@
     <div class="item">
       <div><span class="role">Engineering Manager — LLM Evaluation</span>, <span class="org">Turing</span><span class="when">2023 – Present</span></div>
       <ul>
+        <li>Write expert-level control engineering tasks that frontier LLMs still fail, for several leading AI labs.</li>
         <li>Lead a team of 30+ reviewers evaluating LLM outputs with calibrated rubrics.</li>
         <li>Designed evaluation frameworks and reviewer workflows for reliability and consistency.</li>
-        <li>Managed multiple projects ensuring model quality and robustness.</li>
       </ul>
     </div>
 
@@ -70,9 +101,7 @@
   <section class="section">
     <h2>Selected Projects</h2>
     <ul>
-      <li><a href="https://github.com/jonathanwvd/awesome-industrial-datasets"><b>awesome-industrial-datasets</b></a> — Curated 200+ starred GitHub repository for industrial datasets.</li>
-      <li><a href="https://huggingface.co/spaces/jonathanwvd/PlantPilot"><b>PlantPilot</b></a> — Conversational AI copilot for process plants using RAG and Gradio UI.</li>
-      <li><b>DigitalTwin</b> — Python library for plant monitoring (CPM, Kalman), deployed in Petrobras collaborations.</li>
+      <li><a href="https://github.com/jonathanwvd/awesome-industrial-datasets"><b>awesome-industrial-datasets</b></a> — Curated collection of public industrial datasets, with ~600 GitHub stars.</li>
     </ul>
   </section>
 
